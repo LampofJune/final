@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <title>Lamp of June</title>
+  <style media="screen">
+  *{ box-sizing: border-box;
+
+  }
+    body{
+        background-color: #F6E5F5 ;
+        margin: 15px 30px ;
+        padding: 8px;
+    }
+    h2{
+    margin-left: 195px;
+    align-self: center;
+    font-weight: bold;
+font-family: 'Titillium Web', sans-serif;
+        color: #986D8E;
+        font-size: 40px;
+
+    }
+
+    p{
+      color:#986D8E;
+      font-size: 20px;
+      
+
+    }
+    img{
+
+      width:20% ;
+      margin-right:266px;
+      position: relative;
+      margin-top: 100px ;
+    }
+    sup{
+      color: red;
+    }
+    .content{
+      display: inline-block;
+      background-color:  #F3D1F4 ;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid #986D8E;
+        border-radius: 5px;
+    }
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea{
+      padding:4.5px;
+      border: 1px solid #986D8E ;
+      border-radius: 3px;
+      margin: 5px;
+
+    }
+      input[type="submit"]{
+        color: #986D8E;
+        padding: 4px 4px 4px 4px;
+        cursor: pointer;
+        font-size: 17px;
+       }
+        input[type="submit"]:hover{
+          background-color: #EB6383;
+          color: white;
+        }
+
+  </style>
+  </head>
+  <body>
+    <img src="images/message.png" align="right" alt="contect us">
+    <h2>Contact me at</h2>
+
+    <div class="content">
+
+
+    <form class="ab" action="mailto:deepa@gmail.com" method="post" enctype="text/plain">
+    <!--  <label>Your Name</label> !-->
+      <p> Name:    <sup>*</sup>     <br>
+        <input type="text" name="Yourname" value="" required > </p>
+
+
+      <p> Your date of birth:  <sup>*</sup>    <br>
+         <input type="date" name="dob" value="dob" required> </p>
+
+      <p> Your message:<sup>*</sup>    <br>
+         <textarea name="name" rows="8" cols="80" required></textarea></p>
+  <input type="submit" name="submit" >
+    </div>
+    </form>
+  </body>
+</html>
